@@ -1,0 +1,18 @@
+# Html(Hypertext Markup Language)--> provide Structure for a website.
+  1. Hypertext - Refers to pieces of text that can link to
+     other Documents.
+  2. Markup Language - standard text-encoding system consisting of a
+     set of symbols inserted in a text document.
+
+
+
+# Tags -->HTML tags are like keywords which defines that how web browser 
+          will format and display the content.(Closing tags and Opening Tags).
+          eg...<h1>Hellow</h1>  (Whole content is called element ie. Heading elements.)
+
+      
+# Attributes --> Attributes provide additional information about elements.
+                 eg... color etc..
+
+
+    (Void elements --> Elements having self closing tags. Eg..<hr />,img element etc.)
