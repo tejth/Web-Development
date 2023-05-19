@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Event Registration</h1>
+    <form>
+      <label for="name">Name:</label>
+      <br />
+      <input type="text" name="namecolumn" id="name" />
+      <br />
+      <br />
+      <label for="mail">Email:</label>
+      <br />
+      <input type="text" name="malecolumn" id="male" />
+      <br />
+      <br />
+      <label for="phone">Phone:</label>
+      <br />
+      <input type="text" name="phonecolumn" id="phone" />
+      <br />
+      <br />
+      <label for="Resume">Resume:</label>
+      <br />
+      <input
+        type="file"
+        id="Resume"
+        name="avatar"
+        accept="image/png, image/jpeg"
+      />
+      <br />
+      <br />
+      <label for="Experience">Experience(in years):</label>
+      <br />
+      <input type="number" name="counter" id="Experience" min="0" max="50" />
+      <br />
+      <br />
+      <label for="occupation">Occupation</label>
+      <br />
+      <select name="occupationlist" id="occupation">
+        <option value="">--Please choose an option--</option>
+        <option value="farming">Farming</option>
+        <option value="teacher">Teacher</option>
+        <option value="police">Police</option>
+        <option value="politics">Politics</option>
+        <option value="others">Others</option>
+      </select>
+      <br />
+      <br />
+      <fieldset>
+        <legend>Topics of Interest</legend>
+        <br />
+        <input type="checkbox" name="listbox" id="box1" />
+        <br />
+        <label for="box1">HTML</label>
+        <br />
+        <br />
+        <input type="checkbox" name="listbox" id="box2" />
+        <br />
+        <label for="box2">CSS</label>
+        <br />
+        <br />
+        <input type="checkbox" name="listbox" id="box3" />
+        <br />
+        <label for="box3">Javascript</label>
+      </fieldset>
+
+      <br />
+      <br />
+      <label for="comments">Comments:</label>
+      <br />
+      <textarea id="comments" name="commen" rows="5" cols="33"></textarea>
+      <input type="submit" value="Register" />
+    </form>
+  </body>
+</html>
