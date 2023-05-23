@@ -1,0 +1,4 @@
+ACCORDING TO POSITION ->Botom attribute will overwrite top.
+ACCORDING to SPECIFICITY -> Element selector<class selector<attribute selector<id selector. 
+ACCORDING TO TYPE ->External<internal<inline.
+  "TYPE HAS HIGHER PRIORITY THEN SPECIFICITY..."

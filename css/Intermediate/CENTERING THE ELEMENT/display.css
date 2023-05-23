@@ -1,0 +1,43 @@
+body{
+    margin: 0PX;
+    text-align: center;
+}
+.topcontainer{
+    background-color: rgb(167, 229, 229);
+    position: relative;
+    padding-top:100px ;
+
+
+}
+h1{
+    width: 10%;
+    margin: 0 auto 0 auto;    /*clockwise*/
+}
+
+.bottomcloud{
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+.topcloud{
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*THE CENTERING PROPERTY INSIDE THE  BODY WORKS ONLY ON INLINE ELEMNTS i.e the elements which doesnt
+have a width set,if the elemnt is block then we can set width to  auto to align it to center.*/
