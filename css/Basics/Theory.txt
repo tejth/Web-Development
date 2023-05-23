@@ -1,0 +1,54 @@
+#C.S.S(CASCADING STYLE SHEET)--> Allows to attach style to HTML document.
+
+
+#There are Three ways to add Css to HTML document:-
+  1. Inline(Useful while targeting single element) -> <html style ="background:blue"> </html>
+  2. Internal(Single Webpage) -> <style>
+                        html{
+                            background:red;
+                        } 
+                  </style>
+  
+   3. External(Multiwebpages) -> <head> <link rel="stylesheet" href="styles.css"/> </head>
+                   in styles.css file --> html{background:green};
+
+
+
+#CSS-SELECTORS -> Part which selects the html in order to apply whichever 
+                  rules in between curly braces.                                   
+                  These are of follwing types:-
+
+                  1. Element selector ->adds style to particular
+                                        element in a document.
+
+                  2. Class Selector -> adds style to a element having
+                                       a particular class.
+                                       eg.... <h2 class="red-text"></h2>
+                                       
+                                              .red-text{
+                                               color:red;
+                                               }
+                    
+                   3. Id selector -> selects element with a particular id.
+                                     (Note an element can have two same classes but it cant have two same ids).
+
+                                     eg... <h2 id="main"></h2>
+                                            
+                                            #main{
+                                                color: green
+                                            }
+                
+                   4. Attribute Selector -> adds style by sepecifing attribute of a html element.
+                                 eg... p[draggable="true"]{
+                                         color:red
+                                       } 
+                                       "select all paragraph elements with attributes draggable having value true."
+
+                   5. Universal selector  -> selects all
+                          eg...*{
+                                 color:red;
+                               }
+
+
+{1PX = 1/96 INCH = 1.26MM , 1pt(point)=1/72 inch = 0.35mm}
+{1em(100% of parent) ,  1rem(100% of root) }

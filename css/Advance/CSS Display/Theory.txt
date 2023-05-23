@@ -1,0 +1,15 @@
+THE IMPORTANT THING TO NOTE IS YOU CANT CHANGE THE HEIGHT AND WIDTH 
+OF INLINE ELEMENTS. THEY ARE DEFAULT TO SIZE OF THEIR CONTENT.
+eg... img,span,a etc...
+
+
+Block elements and INLINE Block elements can change in HEIGHT and WIDTH.
+eg..h1,p,forms  etc....
+
+THE NONE PROPERTY MAKES THE ELEMENT DISAPPEAR.
+
+
+
+FOR REFERENCE:->
+
+  appbrewery.github.io/css-display/
