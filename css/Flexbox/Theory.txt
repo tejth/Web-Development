@@ -1,0 +1,29 @@
+#For reference  https://appbrewery.github.io/flex-layout/
+#https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+
+Flexbox is a one-dimensional layout method for arranging items in rows or columns. Items flex (expand) to fill additional space or shrink 
+to fit into smaller spaces.
+
+
+The flex-basis CSS property sets the initial main size of a flex item. It sets the size of the content box unless otherwise set with 
+box-sizing. it is a property which is not applied to parent container.
+
+
+
+BY DEFAULT FLEX DIRECTION IS ROW
+
+
+
+
+1. display - flex;   "PARENT PROPERTY".
+2. flex-direction - row or column;  "PARENT PROPERTY".
+3. flex-basis- "width";      "CHILD PROPERTY".
+4. order: "value";      "Child property"
+5. flex-wrap: nowrap or wrap; "parent property"
+6.justify-content: flex-start or flex-end or center or space-between; "everything will bunched up to left or center ot end."
+7. align-items: center or flex-start etc...... "set distribution along cross-axis, it works with height property  (parent container)"
+8. align-self: center or flex-start etc......"set a particular element to align differently,it works on children class"
+9. align-content:
+
+https://appbrewery.github.io/flexboxfroggy/
